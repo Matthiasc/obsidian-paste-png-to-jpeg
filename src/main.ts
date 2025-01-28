@@ -95,7 +95,7 @@ export default class PastePngToJpegPlugin extends Plugin {
 		}
 		else
 		{
-			newPath = file.parent.path + + "/" + this.settings.dirpath;
+			newPath = file.parent.path + "/" + this.settings.dirpath;
 		}
 		
 		const originName = file.name;
